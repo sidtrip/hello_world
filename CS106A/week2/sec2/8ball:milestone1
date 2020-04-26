@@ -1,0 +1,37 @@
+"""
+Write a program to simulate a magic eight ball. The program should
+prompt the user to type a yes or no question and give a random
+answer from a set of predetermined answers.
+"""
+
+import random
+
+def main():
+    # 1) Prompt user for a yes/no question
+    input("Ask a yes or no question: ")
+    
+    # 2) Print a random answer from list.
+    print_rand_ans()
+    
+    
+def print_rand_ans():
+    # 1) Pick a random integer from 1 to 6(inclusive)
+    # 2) if number equal to 1/ 2/ 3/ 4/ 5/ 6 pick answer accordingly
+        
+    choice= random.randint(1, 6)
+    if choice ==1:
+        print("Not a chance")
+    if choice ==2:
+        print("Without a doubt")
+    if choice ==3:
+        print("Good Question")
+    if choice ==4:
+        print("Only Karel knows")
+    if choice ==5:
+        print("YES")
+    if choice ==6:
+        print("Check the Tea Room")
+    
+
+if __name__ == '__main__':
+    main()
