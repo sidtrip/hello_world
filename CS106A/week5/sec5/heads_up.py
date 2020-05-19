@@ -20,7 +20,7 @@ def load_data():
     words = [] 
     for line in file:
         word = line.strip()
-        words.append(line)
+        words.append(word)
     return words
 
 if __name__ == '__main__':
