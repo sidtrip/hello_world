@@ -15,3 +15,5 @@ time programming Karel, told their friends and we had an astounding 80,000 peopl
 service project that we are doing on top of our day jobs. As such we could only support a small fraction of how many we would 
 have liked. If you haven't received an email, we didn't have space, and the email might have bounced. Thank you for your time 
 to complete the application. We wish you the best on your coding journey.
+
+Eventually ~10000 people ended up being enrolled and we had 900 section leaders.
