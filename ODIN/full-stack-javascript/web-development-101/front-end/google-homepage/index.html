@@ -3,9 +3,34 @@
 <head>
     <title>Google</title>
     <style>
-        .button{
 
+        #search-box{
+            border-radius: 50px;
+            border-color: beige;
         }
+        ul{
+            list-style-type: none;
+            margin:0;
+            padding:0;
+            position: fixed;
+            width: 100%; 
+            display: block;
+        }
+        .right a{
+            float:right ;
+            color: black;
+            padding: 10px 10px 5px 5px ;
+        }
+               
+        .gray{
+            color: gray;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 15px;
+            background-color: #ddd;
+            padding: 8px 10px 8px;
+            border: 1px solid #ccc;
+            }
+        
 
     </style>
 </head>
@@ -19,51 +44,50 @@
 
 
     <header>
-        <a href='https://mail.google.com/mail/?tab=wm&ogbl'> Gmail </a> 
-        <a href='https://www.google.co.in/imghp?hl=en&tab=wi&ogbl'> Images</a>
-        <a href=''> # </a>
-        <a href='https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/'><button id='blue'>Sign In</button></a>
-
+        <ul class='right'>
+            <li><a href='https://mail.google.com/mail/?tab=wm&ogbl'> Gmail </a></li>
+            <li><a href='https://www.google.co.in/imghp?hl=en&tab=wi&ogbl'> Images</a></li>
+            <li><a href=''> # </a></li>
+            <li><a href='https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/'><button id='blue'>Sign In</button></a></li>
+        </ul>
     </header>
 
-
-
-
     <main>
-<img src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'>
-<form>
-    <input type='text' id='search-box' >
+        <img src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'>
+        <form>
+        <input type='text' id='search-box' >
     
 
-</form>
-<button>
-    Google Search
-</button>
-<button>I'm feeling lucky</button>
-<p>Google offered in: <a href='https://www.google.com/setprefs?sig=0_Ng7bkjaiAbli_Yz61Gu1651lafE%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwjI05_k74jrAhVGyzgGHQarBx0Q2ZgBCA8'>
-    हिन्दी</a> বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ</p>
-   
-
-
-</main>
-
-
-
+        </form>
+        <button>
+            Google Search
+        </button>
+        <button>I'm feeling lucky</button>
+        <p>Google offered in: <a href='https://www.google.com/setprefs?sig=0_Ng7bkjaiAbli_Yz61Gu1651lafE%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwjI05_k74jrAhVGyzgGHQarBx0Q2ZgBCA8'>
+        हिन्दी</a> বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ</p>
+    </main>
 
     <footer>
-<div>India</div>
-<div>
-    <div>
-    Advertising Business About How Search works
-    </div>
-    <div>
-    Privacy Terms Settings
-    </div>
-</div>
+        <div class="gray" class='left' >India</div>
+        <div class='gray'>
+        <ul class='left'>
+            <li>Advertising</li>
+            <li> Business</li>
+            <li> About</li>
+            <li> How Search works</li>
+         
+        </ul>
+        <ul class='right'>
+            <li><a href='https://policies.google.com/privacy?hl=en-IN&fg=1'> Privacy</a> </li>
+            <li><a href='https://policies.google.com/terms?hl=en-IN&fg=1'> Terms </a></li>
+            <li><a href='https://www.google.com/preferences?hl=en'> Settings</a></li>
+        </ul>
+        </div>
     </footer>
 
 
 
 
 </body>
+
 </html>
