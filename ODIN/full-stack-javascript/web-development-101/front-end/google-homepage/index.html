@@ -4,10 +4,11 @@
     <title>Google</title>
     <style>
 
-        #search-box{
-            border-radius: 50px;
-            border-color: beige;
+        header{
+
         }
+        
+     
         ul{
             list-style-type: none;
             margin:0;
@@ -17,11 +18,26 @@
             display: block;
         }
         .right a{
-            float:right ;
+            text-align:right ;
             color: black;
             padding: 10px 10px 5px 5px ;
         }
+        body, html {
+  height: 100%;
+  display: grid;
+}
+main { /* thing to center */
+  margin: auto;
+  text-align: center;
+}
                
+        .left a{
+            float:left ;
+            color: black;
+            padding: 10px 10px 5px 5px ;
+        }
+
+
         .gray{
             color: gray;
             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -29,6 +45,7 @@
             background-color: #ddd;
             padding: 8px 10px 8px;
             border: 1px solid #ccc;
+            
             }
         
 
@@ -40,8 +57,6 @@
 
 
 <body>
-
-
 
     <header>
         <ul class='right'>
@@ -55,38 +70,31 @@
     <main>
         <img src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png'>
         <form>
-        <input type='text' id='search-box' >
-    
-
+            <input type='text' id='search-box' >
+            <br>
+            <button>Google Search</button>
+            <button>I'm feeling lucky</button>
         </form>
-        <button>
-            Google Search
-        </button>
-        <button>I'm feeling lucky</button>
-        <p>Google offered in: <a href='https://www.google.com/setprefs?sig=0_Ng7bkjaiAbli_Yz61Gu1651lafE%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwjI05_k74jrAhVGyzgGHQarBx0Q2ZgBCA8'>
-        हिन्दी</a> বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ</p>
+        
+        <p>Google offered in: <a href='#'>हिन्दी</a> বাংলা తెలుగు मराठी தமிழ் ગુજરાતી ಕನ್ನಡ മലയാളം ਪੰਜਾਬੀ</p>
     </main>
 
     <footer>
         <div class="gray" class='left' >India</div>
         <div class='gray'>
-        <ul class='left'>
-            <li>Advertising</li>
-            <li> Business</li>
-            <li> About</li>
-            <li> How Search works</li>
-         
-        </ul>
-        <ul class='right'>
-            <li><a href='https://policies.google.com/privacy?hl=en-IN&fg=1'> Privacy</a> </li>
-            <li><a href='https://policies.google.com/terms?hl=en-IN&fg=1'> Terms </a></li>
-            <li><a href='https://www.google.com/preferences?hl=en'> Settings</a></li>
-        </ul>
+            <ul class='left'>
+                <li><a href='#'> Advertising</a></li>
+                <li><a href='#'> Business</a></li>
+                <li><a href='#'> About</a></li>
+                <li><a href='#'>How Search works</a></li>
+            </ul>
+            <ul class='right'>
+                <li><a href='https://policies.google.com/privacy?hl=en-IN&fg=1'> Privacy</a> </li>
+                <li><a href='https://policies.google.com/terms?hl=en-IN&fg=1'> Terms </a></li>
+                <li><a href='https://www.google.com/preferences?hl=en'> Settings</a></li>
+            </ul>
         </div>
     </footer>
-
-
-
 
 </body>
 
