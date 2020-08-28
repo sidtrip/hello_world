@@ -18,8 +18,12 @@ to complete the application. We wish you the best on your coding journey.
 
 Eventually ~10000 people ended up being enrolled and we had 900 section leaders.
 
-Instructors: Chris Piech, Mehran Sahami
+Instructors: [Chris Piech](https://stanford.edu/~cpiech/bio/index.html), [Mehran Sahami] (http://robotics.stanford.edu/~sahami/bio.html)
+
+
 TA: [Ali Malik] (http://malikaliraza.com/)
     [Brahm Capoor] (http://brahmcapoor.com/)
     [Maya Ziv] (https://mayaziv.com/)
+    
+    
 Section-204 Leader: [Sajeth Jonathan] (https://twitter.com/swsjona?lang=en)
