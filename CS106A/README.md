@@ -1,5 +1,5 @@
 # CS106A
-Code in Place
+Code in Place [https://compedu.stanford.edu/codeinplace/v1/#/course]
 
 Due midnight April 8th, 2020 Anywhere on Earth
 
@@ -17,3 +17,9 @@ have liked. If you haven't received an email, we didn't have space, and the emai
 to complete the application. We wish you the best on your coding journey.
 
 Eventually ~10000 people ended up being enrolled and we had 900 section leaders.
+
+Instructors: Chris Piech, Mehran Sahami
+TA: [Ali Malik] (http://malikaliraza.com/)
+    [Brahm Capoor] (http://brahmcapoor.com/)
+    [Maya Ziv] (https://mayaziv.com/)
+Section-204 Leader: [Sajeth Jonathan] (https://twitter.com/swsjona?lang=en)
