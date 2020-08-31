@@ -17,6 +17,7 @@ have liked. If you haven't received an email, we didn't have space, and the emai
 to complete the application. We wish you the best on your coding journey.
 
 Eventually ~10000 people ended up being enrolled and we had 900 section leaders.
+Course Spanned from 13 April 2020 to 27 April 2020
 
 Instructors: [Chris Piech](https://stanford.edu/~cpiech/bio/index.html), [Mehran Sahami](http://robotics.stanford.edu/~sahami/bio.html)
 
