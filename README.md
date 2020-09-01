@@ -15,4 +15,6 @@ Sequence of how things wound up:
     - freecodecamp
   - Stanford CS 106-A
   - MIT 60001x
+  - CS50's Understanding Technology
+  - Berkeley CS - 61-A
   - Harvard CS - 50
